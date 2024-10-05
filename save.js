@@ -28,5 +28,5 @@ app.post('/save.php', (req, res) => {
 });
  
 app.listen(8080, () => {
-  console.log('Started');
+  console.log('Started', 'http://localhost:8080/editor.html');
 });
